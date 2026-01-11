@@ -258,29 +258,6 @@ To evade Twitter’s anti-bot protections:
 
 * Use authenticated Chrome via cookies
 * Randomized scroll intervals
-* Rate-limit cool-off periods
-* Skip stale DOM elements
-
----
-
-## 🛠 Troubleshooting
-
-### ❗ StaleElementReferenceException
-
-This occurs when Twitter reuses DOM nodes.
-Handled by skipping stale articles.
-
----
-
-### ❗ Rate-Limiting
-
-Detected by page text.
-When rate-limited:
-
-```
-sleep 60–120s
-driver.refresh()
-```
 
 ---
 
