@@ -15,6 +15,7 @@ services:
 
   app:
     build: .
+    container_name: main_app
     depends_on:
       - chrome
     volumes:
