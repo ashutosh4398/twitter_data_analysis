@@ -1,0 +1,26 @@
+[
+    {
+        "tweet_id": "234",
+        "username": "xyz",
+        "handle": "@xyz",
+        "text": "Sample tweet",
+        "timestamp": "2026-01-11T05:30:42.000Z",
+        "replies": "0",
+        "retweets": "0",
+        "likes": "0",
+        "views": "19",
+        "hashtag": "intraday"
+    },
+    {
+        "tweet_id": "234",
+        "username": "xyz",
+        "handle": "@xyz",
+        "text": "Sample tweet",
+        "timestamp": "2026-01-11T05:30:42.000Z",
+        "replies": "0",
+        "retweets": "0",
+        "likes": "0",
+        "views": "19",
+        "hashtag": "intraday"
+    }
+]

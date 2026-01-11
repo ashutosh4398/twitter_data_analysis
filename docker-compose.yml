@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+  chrome:
+    image: selenium/standalone-chrome:4.17.0
+    container_name: selenium
+    ports:
+      - "4444:4444"
+      - "7900:7900"   # noVNC (browser view)
+    shm_size: 2gb
+    environment:
+      - SE_VNC_NO_PASSWORD=1
+      - SE_NODE_MAX_SESSIONS=5
+      - SE_NODE_OVERRIDE_MAX_SESSIONS=true
+
+  app:
+    build: .
+    depends_on:
+      - chrome
+    volumes:
+      - .:/app
+    environment:
+      - SELENIUM_REMOTE_URL=http://chrome:4444
+    command: ["tail", "-f" ,"/dev/null"]

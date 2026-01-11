@@ -1,0 +1,26 @@
+[
+    {
+        "tweet_id": "123",
+        "username": "abc",
+        "handle": "@abc",
+        "text": "sample tweet",
+        "timestamp": "2026-01-11T05:30:42.000Z",
+        "replies": "0",
+        "retweets": "0",
+        "likes": "0",
+        "views": "19",
+        "hashtag": "banknifty"
+    },
+    {
+        "tweet_id": "123",
+        "username": "abc",
+        "handle": "@abc",
+        "text": "sample tweet",
+        "timestamp": "2026-01-11T05:30:42.000Z",
+        "replies": "0",
+        "retweets": "0",
+        "likes": "0",
+        "views": "19",
+        "hashtag": "banknifty"
+    }
+]

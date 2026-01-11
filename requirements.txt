@@ -1,0 +1,9 @@
+selenium==4.17.2
+pandas
+pyarrow
+tqdm
+beautifulsoup4
+webdriver-manager
+vaderSentiment
+matplotlib
+structlog
